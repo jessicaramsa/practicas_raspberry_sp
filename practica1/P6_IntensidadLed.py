@@ -3,7 +3,7 @@
 import RPi.GPIO as GPIO
 from time import sleep
 
-ledpwm=18
+ledpwm=14
 GPIO.setmode(ledpwn, GPIO.BCM)
 GPIO.setup(ledpwn, GPIO.OUT)
 led = GPIO.PWM(ledpwm, 100)

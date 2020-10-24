@@ -2,7 +2,7 @@
 import RPi.GPIO as GPIO
 from time import sleep
 
-ledonoff=18
+ledonoff=14
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(leodonoff, GPIO.OUT)
 try:

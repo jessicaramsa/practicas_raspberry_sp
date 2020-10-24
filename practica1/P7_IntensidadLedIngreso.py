@@ -2,7 +2,7 @@
 #ejercicio 7 - Intensidad de Led por ingreso de datos
 import RPi.GPIO as GPIO
 
-ledpwm=18
+ledpwm=14
 GPIO.setmode(ledpwn, GPIO.BCM)
 GPIO.setup(ledpwn, GPIO.OUT)
 led = GPIO.PWM(ledpwm, 100)

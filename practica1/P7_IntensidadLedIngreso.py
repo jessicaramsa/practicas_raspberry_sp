@@ -3,8 +3,8 @@
 import RPi.GPIO as GPIO
 
 ledpwm=14
-GPIO.setmode(ledpwn, GPIO.BCM)
-GPIO.setup(ledpwn, GPIO.OUT)
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(ledpwm, GPIO.OUT)
 led = GPIO.PWM(ledpwm, 100)
 led.start(1)
 try:

@@ -1,11 +1,10 @@
-
 #ejercicio 6 - Intensidad de Led
 import RPi.GPIO as GPIO
 from time import sleep
 
 ledpwm=14
-GPIO.setmode(ledpwn, GPIO.BCM)
-GPIO.setup(ledpwn, GPIO.OUT)
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(ledpwm, GPIO.OUT)
 led = GPIO.PWM(ledpwm, 100)
 led.start(1)
 led.ChangeDutyCycle(10)

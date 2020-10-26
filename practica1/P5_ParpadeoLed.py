@@ -4,14 +4,14 @@ from time import sleep
 
 ledonoff=14
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(leodonoff, GPIO.OUT)
+GPIO.setup(ledonoff, GPIO.OUT)
 try:
     while True:
         estado=True
-        GPIO.output(leodonoff, estado)
+        GPIO.output(ledonoff, estado)
         sleep(1)
         estado=False
-        GPIO.output(leodonoff, estado)
+        GPIO.output(ledonoff, estado)
         sleep(1)
 except KeyboardInterrupt:
     GPIO.cleanup()

@@ -1,6 +1,6 @@
 
 #ejercicio 8 - Encendido de Led por tiempo
-import gpiozero as LED
+from gpiozero import LED
 from time import *
 
 led = LED(14)
